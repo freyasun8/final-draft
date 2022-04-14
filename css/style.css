@@ -253,6 +253,7 @@ figcaption{
     padding-top: 10px;
 	color: lightgre;
 	border-bottom: solid lightgray;
+	text-align: left;
 	
 }
 @keyframes logo{

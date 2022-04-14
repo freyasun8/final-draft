@@ -629,6 +629,11 @@ a:visited{color:black}
     -webkit-transition: initial; /* sets to default setting */
     transition: initial; /* sets to default setting */
   }
+/*Turn off parallax*/
+  .first_image_index,.second_image_index,.third_image_index,.forth_image_index{
+    background-attachment: initial;
+  }
+}
 }
 
 

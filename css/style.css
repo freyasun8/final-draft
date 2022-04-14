@@ -16,6 +16,15 @@ h2{
 	color:rebeccapurple;
 	font-family: "Adamina",sans-serif;
 }
+a.skip{
+	background: white;
+	padding: 6px;
+	-webkit-transition: top 1s ease-out;
+	transition: left 1s ease-out;
+	z-index: 1;
+	position: absolute;
+	left: -500px;
+ }
 p.chole{
 	top: 10px;
 	padding: 10px;

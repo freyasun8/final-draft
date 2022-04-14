@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   	font-size: 20px;
 	line-height: 1.2em;
@@ -616,6 +620,16 @@ a:visited{color:black}
 		transition: none;
 		-webkit-transition: none;
 	}
+	html{
+    scroll-behavior: auto; /* Removes scroll animation */
+  }
+
+  /*Turn off transition*/
+  a.skip {
+    -webkit-transition: initial; /* sets to default setting */
+    transition: initial; /* sets to default setting */
+  }
 }
+
 
 

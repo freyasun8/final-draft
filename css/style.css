@@ -253,9 +253,9 @@ figcaption{
     padding-top: 10px;
 	color: lightgre;
 	border-bottom: solid lightgray;
-	padding-left: 15px;
-    padding-right: 15px;
-	
+	padding-left: 5px;
+    padding-right: 5px;
+	font-size: 18px;
 }
 @keyframes logo{
     0% {opacity: 0;}
